@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Design
 
-![](design/desktop-design.jpg.jpg)
+![](design/desktop-design.jpg)
 
 
 ### Links
