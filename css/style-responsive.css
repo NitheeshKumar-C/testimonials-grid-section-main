@@ -1,0 +1,53 @@
+@media only screen and (min-width:768px) and (max-width:991px){
+    .n3,.n4{
+        margin-bottom: 2rem;
+    }
+    .lr{
+        padding:0 9.750px;
+        margin: 0 9.750px ;
+    }
+    .n5{
+        width: 95%;
+    }
+} 
+
+@media only screen and (min-width:100px) and (max-width:767px){
+    .n3,.n4{
+        margin-bottom: 2rem;
+    }
+    .attribution,.attribution a{
+        font-size: 1.2rem;
+    }
+    /*  */
+} 
+@media (max-width:330px){
+    .testimonials{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .pic{
+        width: 3rem;
+        border-radius: 50%;
+        float: none;
+    }
+    .person-details,.name,.verified{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+    .feedback{
+        font-size: 1.1rem;
+        padding:10px 0 10px 0;
+    }
+    .about{
+        z-index: 4;
+        font-size: 1rem;
+    }
+    .attribution,.attribution a{
+        font-size: 0.7rem;
+    }
+    
+} 

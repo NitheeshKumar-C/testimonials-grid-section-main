@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+    min-height: 100vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.testimonials{
+    max-width: 100%;
+    margin: 2rem;
+
+}
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.n1{
+    background-color:  hsl(263, 55%, 52%);
+    margin: 0 0 2rem 0;
+    position: relative;
+}
+.quotes{
+    position: absolute;
+    z-index: 1;
+    width: 20%;
+    right: 15%;
+    top: 0;
+}
+.n2{
+    background-color: hsl(217, 19%, 35%);
+    margin: 0 0 2rem 0;
+}
+.n4{
+    background-color: hsl(219, 29%, 14%);
+}
+.n1,.n2,.n4{
+    color: white;
+}
+.n1,.n2,.n3,.n4,.n5{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+.pic{
+    width: 3rem;
+    border-radius: 50%;
+    float: left;
+}
+.name{
+    font-size: 1.3rem;
+    margin-left: 4rem;
+}
+.verified{
+    font-size: 1rem;
+    margin-left: 4rem;
+    opacity: 0.5;
+}
+.feedback{
+    font-size: 1.6rem;
+    padding:10px 0 10px 0;
+    font-weight: 600;
+}
+.about{
+    z-index: 4;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 81%);
+}
+.n3,.n5{
+    background-color: white;
+    box-shadow:  10px 10px 11px 0 rgba(0, 0, 0, 0.151);
+}
+.n3 .about,.n5 .about{
+    color: hsl(0, 0%, 57%);;
+}
+.name,.verified,.feedback,.about,.person-details{
+    z-index: 4;
+}
+i{
+    color: hsl(217, 19%, 35%) hsl(219, 29%, 14%) hsl(0, 0%, 100%)
+    
+    hsl(0, 0%, 81%) hsl(210, 46%, 95%);
+}
+.attribution{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+.attribution a{
+    color: black;
+    font-size: 1.5rem;
+}
