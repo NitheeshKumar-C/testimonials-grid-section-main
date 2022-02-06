@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution here](https://your-solution-url.com)
+- [Solution here](https://www.frontendmentor.io/solutions/responsive-design-using-bootstrap-grid-CYbpul7Srp)
 - [Live Site here](https://nitheeshkumar-c.github.io/testimonials-grid-section-main/)
 
 ## My process
