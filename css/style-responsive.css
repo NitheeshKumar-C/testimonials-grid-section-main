@@ -1,3 +1,21 @@
+@media (max-width: 992px){
+    .n3,.n4{
+        margin-bottom: 2rem;
+    }
+    .lr{
+        display: flex;
+        justify-content: space-around;
+        padding:0 2.5rem;
+    }
+}
+@media (min-width: 992px){
+    .lr{
+        display: flex;
+        justify-content:left;
+        padding-left: 0;
+    }
+}
+
 @media only screen and (min-width:768px) and (max-width:991px){
     .n3,.n4{
         margin-bottom: 2rem;
@@ -14,14 +32,18 @@
     .testimonials{
         justify-content: space-evenly;
     }
-} 
-
+}
 @media only screen and (min-width:100px) and (max-width:767px){
     .n3,.n4{
         margin-bottom: 2rem;
     }
     .attribution,.attribution a{
         font-size: 1.2rem;
+    }
+    .lr{
+        width: 100%;
+        padding: 0 0.7rem 1rem;
+        margin: 0;
     }
     /*  */
 } 
