@@ -98,6 +98,9 @@ main{
 .name,.verified,.feedback,.about,.person-details{
     z-index: 4;
 }
+.person-details{
+    line-height: 0.5;
+}
 .attribution{
     text-align: center;
     line-height: 1.5;
