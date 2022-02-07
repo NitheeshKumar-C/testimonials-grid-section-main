@@ -3,11 +3,16 @@
         margin-bottom: 2rem;
     }
     .lr{
-        padding:0 9.750px;
-        margin: 0 9.750px ;
+        display: flex;
+        justify-content: space-around;
+        padding:0 2.5rem;
     }
-    .n5{
-        width: 95%;
+    .row1{
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .testimonials{
+        justify-content: space-evenly;
     }
 } 
 
@@ -20,9 +25,16 @@
     }
     /*  */
 } 
+@media only screen and (min-width: 330px) and (max-width: 750px) {
+    .row1{
+        justify-content: space-between;
+        margin: 0;
+    }
+
+}
 @media (max-width:330px){
     .testimonials{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         padding: 0;
     }
