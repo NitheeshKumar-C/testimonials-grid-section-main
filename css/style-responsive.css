@@ -30,6 +30,7 @@
         margin: 0;
     }
     .testimonials{
+        margin-top: 2rem;
         justify-content: space-evenly;
     }
 }
@@ -44,6 +45,9 @@
         width: 100%;
         padding: 0 0.7rem 1rem;
         margin: 0;
+    }
+    .testimonials{
+        margin-top: 2rem;
     }
     /*  */
 } 
