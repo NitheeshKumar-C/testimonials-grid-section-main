@@ -47,4 +47,4 @@ Bootstrap css grid, position property.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Nitheeshkumar](https://www.frontendmentor.io/profile/yourusername)
