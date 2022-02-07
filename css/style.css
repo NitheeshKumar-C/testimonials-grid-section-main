@@ -95,11 +95,15 @@ main{
     font-size: 1.1rem;
     color: hsl(0, 0%, 81%);
 }
+.person-details{
+    line-height: 0.5;
+}
 .name,.verified,.feedback,.about,.person-details{
     z-index: 4;
 }
-.person-details{
-    line-height: 0.5;
+i{
+    color:  hsl(263, 55%, 52%) hsl(217, 19%, 35%)  hsl(219, 29%, 14%) hsl(0, 0%, 100%)
+      hsl(0, 0%, 81%) hsl(210, 46%, 95%);
 }
 .attribution{
     text-align: center;
